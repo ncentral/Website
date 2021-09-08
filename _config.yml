@@ -1,0 +1,16 @@
+url: "https://website.ncentral.uk.to/"
+
+compress_html:
+  comments: ["<!-- ", " -->"]
+  blanklines: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+sass:
+  sass_dir: css
+  sourcemap: never
+  style: compressed
